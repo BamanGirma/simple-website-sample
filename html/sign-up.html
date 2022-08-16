@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup-style.css">
+ 
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="navs">
+        <h2 class="heading">ve</h2>
+        <ul class="nav-bars">
+            <a href="/html/sign-up.html"><li>sign-up</li></a>
+            <a href="/html/permier-login.html"><li>premium</li></a>
+        </ul>
+    </div>
+
+    <div class="signup">
+        <form class="form" id="traverse">
+            <h3>Create Account</h3><br>
+            User Name <br>
+            <input type="text" class="inputs" " id="userName"  required><br>
+
+            Email <br>
+            <input type="email" class="inputs" id="email" required ><br>
+
+            password <br>
+            <input type="password" class="inputs"  id="password" required><br>
+
+            <input type="submit" value="sign up" class="btn" onclick="getInfo()">
+        </form>
+    </div>
+
+    <script>
+
+
+        var objPeopel = [
+        {
+            userName: "abel",
+            email: "abel@gmail.com",
+            password: "111@111",
+        },
+
+        {
+            userName: "aman",
+            email: "aman@gmail.com",
+            password: "222@222",
+        }
+    ]
+    var url = '/html/home.html';
+    
+    function getInfo() {
+        var userName = document.getElementById("userName").value;
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+
+
+        for(var i = 0; i < objPeopel.length; i++){
+            if(userName == objPeopel[i].userName && email == objPeopel[i].email && password == objPeopel[i].password)
+            {
+                alert("The user already exist");
+            }
+            else 
+            {
+               document.getElementById('btn').onclick = function(){ 
+                    window.location.replace(url);
+                }
+            }
+        }
+        
+    }
+    </script>
+</body>
+</html>

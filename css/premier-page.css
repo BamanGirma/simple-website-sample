@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    /* background: linear-gradient(blue, black, green); */
+    background:rgb(20, 34, 20);
+    font-family: "Roboto Mono", monospace;
+}
+
+.navs {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(177, 177, 194);
+    padding: 18px;
+  }
+  .heading {
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 10px;
+  }
+  .nav-bars {
+    display: flex;
+    padding: 0 40px;
+  }
+  .nav-bars li {
+    list-style: none;
+    padding: 5px 18px;
+    color: black;
+    transition: all 0.5 ease-in-out;
+    margin: auto auto;
+  }
+  .nav-bars li:hover {
+    background: rgb(66, 66, 155);
+    border-radius: 30px;
+    color: white;
+  }
+  
+  .nav-bars a {
+    text-decoration: none;
+  }
+
+.gener {
+    display: flex;
+    gap: 30px;
+    border-radius: 90px;
+}
+
+.img {
+    padding:30px 30px;
+    width: 350px;
+    height: 350px;
+    border: none;
+    border-radius: 30px;
+}
+
+.desc {
+    padding-top: 35px;
+    max-width: 600px;
+    color: rgb(194, 182, 182);
+}
+
+.heading-axum {
+    padding-left: 600px;
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: rgb(194, 182, 182);
+}
+
+.small {
+    width: 200px;
+    height: 200px;
+}
+
+.food {
+    padding-left: 120px;
+    padding-top: 50px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.sub-head {
+    color: rgb(194, 182, 182);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.list-hotel {
+    color: rgb(194, 182, 182);
+    padding-top: 5px;
+}
+
+.head-hotel {
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 30px;
+}

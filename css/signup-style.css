@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,200&display=swap');
+
+*,*::before, *::after {
+    margin:0;
+    padding:0;
+}
+.navs {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(58, 95, 126);
+    padding: 18px;
+}
+
+.heading {
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 10px;
+  }
+
+.nav-bars li {
+    list-style: none;
+    padding: 5px 18px;
+    color: black;
+    transition: all 0.5 ease-in-out;
+    margin: auto auto;
+}
+
+.nav-bars li:hover {
+    background: rgb(66, 66, 155);
+    border-radius: 30px;
+    color: white;
+}
+
+.nav-bars a {
+    text-decoration: none;
+}
+  
+
+.nav-bars {
+    display: flex;
+    padding: 0 40px;
+  }
+
+body {
+    font-family: "Roboto Mono", monospace;
+    background:linear-gradient(rgb(42, 123, 230), rgb(49, 110, 148), rgb(18, 57, 83));
+    /* background: rgb(20, 34, 20); */
+    color: #fff;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #2980b9, #303fc5);
+    /* background: rgb(255, 255, 255); */
+    padding: 20px;
+    margin: 150px 470px;
+    border-radius: 15px;
+}
+
+.inputs {
+    padding:5px 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid rgb(172, 172, 235);
+}
+
+.labels {
+    font-size: 15px;
+    padding: 20px 0;
+    text-transform: capitalize;
+
+}
+
+.btn {
+    margin: 15px 45px;
+    padding:10px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background: rgb(155, 155, 223);
+}
+
+.title {
+    margin:10px 30px;
+    font-size: 20px;
+
+}

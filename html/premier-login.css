@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Mono',  sans-serif;
+    background:linear-gradient(rgb(42, 123, 230), rgb(49, 110, 148), rgb(18, 57, 83));
+}
+
+.navs {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(58, 95, 126);
+    padding: 18px;
+}
+
+.nav-bars {
+    display: flex;
+    padding: 0 40px;
+  }
+
+.nav-bars li {
+    list-style: none;
+    padding: 5px 18px;
+    color: black;
+    transition: all 0.5 ease-in-out;
+    margin: auto auto;
+}
+
+.nav-bars li:hover {
+    background: rgb(66, 66, 155);
+    border-radius: 30px;
+    color: white;
+}
+.heading {
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+
+.nav-bars a {
+    text-decoration: none;
+}
+  
+
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    align-items: center;
+}
+
+.container form {
+    background: linear-gradient(120deg, #2980b9, #303fc5);
+    padding: 40px 80px;
+    border-radius: 30px;
+}
+
+.lable-format {
+    margin:5px 20px;
+}
+
+input {
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid rgb(161, 161, 189);
+}
+
+select {
+    margin: 10px 0;
+    padding: 2px 10px;
+}
+
+.submit-btn {
+    margin: 10px 50px;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+    background: rgb(155, 155, 223);
+    border-radius: 15px;
+    border:none;
+}
+
+.heading-4 {
+    font-weight: 500;
+    margin: 0 20px;
+    margin-bottom: 25px;
+}
